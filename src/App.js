@@ -7,6 +7,7 @@ const User = ({user}) => {(
   <li>
     {user.username} - {user.email}
     { user.isAdmin ? '(admin)' : '' }
+  </li>
 )}
 
 class App extends Component {
